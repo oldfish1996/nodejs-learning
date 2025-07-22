@@ -9,5 +9,9 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "ansi-escapes": "^7.0.0",
+    "chalk": "^5.4.1"
+  }
 }
