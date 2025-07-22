@@ -1,8 +1,8 @@
 {
-  "name": "ansi-test",
+  "name": "cli-progress",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "test.js",
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -10,8 +10,14 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "devDependencies": {
+    "@types/cli-progress": "^3.11.6",
+    "@types/node": "^24.1.0",
+    "typescript": "^5.8.3"
+  },
   "dependencies": {
     "ansi-escapes": "^7.0.0",
-    "chalk": "^5.4.1"
+    "chalk": "^5.4.1",
+    "cli-progress": "^3.12.0"
   }
 }
