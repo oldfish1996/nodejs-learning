@@ -10,8 +10,15 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@types/blessed": "^0.1.25",
     "@types/cli-progress": "^3.11.6",
+    "@types/minimist": "^1.2.5",
     "@types/node": "^24.1.0",
+    "@types/prompts": "^2.4.9",
+    "blessed": "^0.1.81",
+    "blessed-contrib": "^4.11.0",
+    "minimist": "^1.2.8",
+    "prompts": "^2.4.2",
     "typescript": "^5.8.3"
   },
   "dependencies": {
