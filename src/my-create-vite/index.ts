@@ -109,7 +109,8 @@ async function init() {
 
   let targetDir = argTargetDir || defaultDir;
 
-  let result: prompts.Answers<'projectName'>;
+  let result: prompts.Answers<'projectName'> =
+    {} as prompts.Answers<'projectName'>;
 
   try {
     result = await prompts(
